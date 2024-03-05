@@ -63,6 +63,3 @@ public class Main {
     }
 }
 ```
-
-### Status
-![11.11%](https://progress-bar.dev/11.11?title=Basic%20Programming%20Constructs)

@@ -64,3 +64,8 @@ public class Main {
     }
 }
 ```
+### Output
+
+```
+x is positive
+```

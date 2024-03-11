@@ -32,14 +32,14 @@ numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
 sum = 0
 for val in numbers:
     sum = sum+val
-print("The sum is", sum)
+print("The sum is", sum) # The sum is 48
 
 # Range function
 # Program to iterate through a list using indexing
 genre = ['pop', 'rock', 'jazz']
 # iterate over the list using index
 for i in range(len(genre)):
-    print("I like", genre[i])
+    print("I like", genre[i]) # I like pop, I like rock, I like jazz
 ```
 
 #### Java
@@ -52,12 +52,12 @@ public class Main {
         for (int val : numbers) {
             sum = sum + val;
         }
-        System.out.println("The sum is " + sum);
+        System.out.println("The sum is " + sum); // The sum is 48
 
         // Iterate through a list using indexing
         String[] genre = {"pop", "rock", "jazz"};
         for (int i = 0; i < genre.length; i++) {
-            System.out.println("I like " + genre[i]);
+            System.out.println("I like " + genre[i]); // I like pop, I like rock, I like jazz
         }
     }
 }
